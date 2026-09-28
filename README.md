@@ -79,11 +79,11 @@ Same backbone, plus:
 
 **Baseline CNN:** training accuracy climbed to 67% in 5 epochs while validation accuracy stayed near 30%, a clear sign of **overfitting**.
 
-![Baseline CNN training curves](images/base_cnn_training_curves.png)
+![Baseline CNN training curves](base_cnn_training_curves.png)
 
 **Optimised CNN:** with heavy regularisation and only 5 epochs (limited by compute time on Colab), the model **underfit**. It did not learn useful features and predicted Stage 8 for almost every image.
 
-![Optimised CNN training curves](images/optimised_cnn_training_curves.png)
+![Optimised CNN training curves](optimised_cnn_training_curves.png)
 
 ---
 
